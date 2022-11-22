@@ -57,12 +57,6 @@ class Board:
         pass
     #finds an empty cell and returns its row and col as a tuple(x,y)
     def find_empty(self):
-        # x is row and y is col
-        for x in range(len(board)):
-            for y in range(len(board)):
-                if board[x][y] == 0:
-                    return x, y
-        return None
         pass
     #check whether the sudoku board is solved correctly
     def check_board(self):
